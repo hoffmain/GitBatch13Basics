@@ -1,0 +1,48 @@
+******************Review*******************
+
+1. What is git?
+    -it is a version control
+2. What is a local repository?
+    -a storage that is on our computer
+3. What is a remote repository?
+    -github
+
+4. Architecture of git:
+    3 stage architecture:
+        working directory
+        staging area
+        repository
+
+Working directory-->
+
+gitProject1--> pom, src, target, .idea
+
+5. Where should you create your local git repository?
+    -ideally you should create your repo inside your working directory. i.e. in this
+    case, gitProject1
+
+Note:
+One repo for one single project
+No subRepos are advised
+
+
+---------------Tracking your first project using git----------------
+
+1. Decide the location where to create the repository and navigate my Mr.Terminal
+to that particular directory
+2. Initialize an empty repository: git init--> to initialize an empty repository
+    -To show hidden folders: Cmd+Shift+.
+    -To delete a repo, simply delete the .git folder
+    git init:
+    .git: holds the staging area and local repo
+3. git status:
+    shows you untracked files in red
+    shows you tracked files in green
+
+
+
+
+
+
+
+
