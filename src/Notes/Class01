@@ -55,11 +55,20 @@ i.e. working directory, staging area, and repo synchronised
     something that will always be true.
     -You need to focus on lone number also mentioned on the top like:
     @@ -5,13 +5,9 @@ --> shows the line number in which the changes were made
+5. to see the difference between the files in the staging area and repo: git diff --staged
 
+---------------------The gitIgnore File----------------------
 
+To ignore the file from being tracked by git, we use --> gitignore
 
+1. create a .gitignore file
+    a. touch .gitignore
+2. enter the name of the files that you want git to ignore from tracking and save the file
+    --> that file will be ignored
+    in order to ignore a complete folder, write down the name of the folder in .gitignore
+    e.g. if you want to ignore target folder in .gitignore type: target/
 
-
+---------------------The gitIgnore File----------------------
 
 
 
