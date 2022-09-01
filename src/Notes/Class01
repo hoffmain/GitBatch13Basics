@@ -39,8 +39,25 @@ to that particular directory
     shows you untracked files in red
     shows you tracked files in green
 4. Moves all tracked files to the staging area: git add .
-5. Move all tracked files to the local repo: git commit -m "specific message"
+5. Sends all files from staging area to the local repo: git commit -m "specific message"
     This will contain name, date, author, code
+6. git status after the commit shows working tree clean because we have all three stages
+i.e. working directory, staging area, and repo synchronised
+
+---------------------Some Advance git commands----------------------
+
+1. to view the files in your staging area: git ls-files
+2. to remove any files from the staging area: git rm --cached filename
+3. to restore file from staging area to your working directory: git restore .
+4. to see the difference between the staging area and working directory: git diff
+    -is going to show the difference in each file that has been modified
+    -usually means that the line was deleted and it was replaced, but that is not
+    something that will always be true.
+    -You need to focus on lone number also mentioned on the top like:
+    @@ -5,13 +5,9 @@ --> shows the line number in which the changes were made
+
+
+
 
 
 
