@@ -68,10 +68,20 @@ To ignore the file from being tracked by git, we use --> gitignore
     in order to ignore a complete folder, write down the name of the folder in .gitignore
     e.g. if you want to ignore target folder in .gitignore type: target/
 
----------------------The gitIgnore File----------------------
+---------------------Sending our Local Repo to GitHub----------------------
 
+1. Create a new remote repository
+2. Establish a connection: git remote add origin URL
+3. Check the connection: git remote -v
+4. To delete the connection: git remote remove origin
+5. Naming the branch: git branch -M main
+6. Pushing code for the first time: git push -u origin main
+    pushing modified codes after: git push
 
+---------------------Git Cloning----------------------
 
-
+Git cloning helps us get the code from the remote repositories on our computer
+You can Download ZIP from github. It will only have latest commit, none of the previous commits
+You need to have the same exact commit history. Git takes commit history very seriously.
 
 
